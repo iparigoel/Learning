@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;            
+        }
+        .logo img{
+            height: 70px;
+            width: 209px;
+        }
+        div ul{
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+        li{
+            display: flex;
+            align-items:center;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 350px 350px 350px;
+            grid-template-rows: 250px 250px 250px;
+            justify-content: center;
+            align-items: center;
+        }
+        .item{
+            background-color: rgb(248, 248, 248);
+            margin: 20px;
+            border-radius: 8px;
+            font-weight: 700;
+            text-align: center;
+            padding: 20px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .green{
+            height: 35px;
+            width: 150px;
+            background-color: rgb(70, 192, 70);
+            border-radius: 8px;
+            margin: 20px 10px 0px 60px;
+            text-align-last: center;
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .pre{
+            font-size: 9px;
+        }
+        span{
+            font-size: larger;
+        }
+        @media screen and (max-width:900px) {
+            .container{
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="UE-Logo-1.jpg" alt="my logo">
+            </div>
+            <div class="right">
+                <ul>
+                    <li><span>Products</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                        <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg></li>
+                    <li><span>Pricing</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                        <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg></li>
+                    <li><span>Resources</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                        <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg></li>
+                    <li><span>About Us</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                        <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg></li>
+                    <li><span>Security and Compliance</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                        <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="item"><span>English</span><pre>    </pre><div class="green"><a href="ue_english_64.exe"></a>Download 64-bit</div><pre class="pre1">SHA256</pre><pre class="pre">AA32582D4736B5A5CB3C4D57C670C8BCDE76C1F93058EB8BAC11AB8DC5</pre><pre class="pre">C08EB2</pre></div>
+        <div class="item"><span>Deutsch</span><pre>German</pre><div class="green"><a href="ue_english_64.exe"></a>Download 64-bit</div><pre class="pre1">SHA256</pre><pre class="pre">AA32582D4736B5A5CB3C4D57C670C8BCDE76C1F93058EB8BAC11AB8DC5</pre><pre class="pre">C08EB2</pre></div>
+        <div class="item"><span>Italiano</span><pre>Italian</pre><div class="green"><a href="ue_english_64.exe"></a>Download 64-bit</div><pre class="pre1">SHA256</pre><pre class="pre">AA32582D4736B5A5CB3C4D57C670C8BCDE76C1F93058EB8BAC11AB8DC5</pre><pre class="pre">C08EB2</pre></div>
+        <div class="item"><span>Español</span><pre>Spanish</pre><div class="green"><a href="ue_english_64.exe"></a>Download 64-bit</div><pre class="pre1">SHA256</pre><pre class="pre">AA32582D4736B5A5CB3C4D57C670C8BCDE76C1F93058EB8BAC11AB8DC5</pre><pre class="pre">C08EB2</pre></div>
+        <div class="item"><span>français</span><pre>French</pre><div class="green"><a href="ue_english_64.exe"></a>Download 64-bit</div><pre class="pre1">SHA256</pre><pre class="pre">AA32582D4736B5A5CB3C4D57C670C8BCDE76C1F93058EB8BAC11AB8DC5</pre><pre class="pre">C08EB2</pre></div>
+        <div class="item"><span>Português brasileiro</span><pre>Brazilian Portuguese</pre><div class="green"><a href="ue_english_64.exe"></a>Download 64-bit</div><pre class="pre1">SHA256</pre><pre class="pre">AA32582D4736B5A5CB3C4D57C670C8BCDE76C1F93058EB8BAC11AB8DC5</pre><pre class="pre">C08EB2</pre></div>
+        <div class="item"><span>日本</span><pre>Japanese</pre><div class="green"><a href="ue_english_64.exe"></a>Download 64-bit</div><pre class="pre1">SHA256</pre><pre class="pre">AA32582D4736B5A5CB3C4D57C670C8BCDE76C1F93058EB8BAC11AB8DC5</pre><pre class="pre">C08EB2</pre></div>
+        <div class="item"><span>한국어</span><pre>Korean</pre><div class="green"><a href="ue_english_64.exe"></a>Download 64-bit</div><pre class="pre1">SHA256</pre><pre class="pre">AA32582D4736B5A5CB3C4D57C670C8BCDE76C1F93058EB8BAC11AB8DC5</pre><pre class="pre">C08EB2</pre></div>
+        <div class="item"><span>中国</span><pre>Chinese</pre><div class="green"><a href="ue_english_64.exe"></a>Download 64-bit</div><pre class="pre1">SHA256</pre><pre class="pre">AA32582D4736B5A5CB3C4D57C670C8BCDE76C1F93058EB8BAC11AB8DC5</pre><pre class="pre">C08EB2</pre></div>
+        <div class="item"><span>中國</span><pre>Traditional Chinese</pre><div class="green"><a href="ue_english_64.exe"></a>Download 64-bit</div><pre class="pre1">SHA256</pre><pre class="pre">AA32582D4736B5A5CB3C4D57C670C8BCDE76C1F93058EB8BAC11AB8DC5</pre><pre class="pre">C08EB2</pre></div>
+    </div>
+</body>
+</html>
