@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 50vh;
+            background-color: blue;
+            border: 2px solid black;
+            position: relative;
+        }
+        .box{
+            height: 50px;
+            width: 50px;
+            border-radius: 50px;
+            background-color: red;
+            border: 2px solid black;
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: bouncingballY 3s ease-out infinite ,
+                    bouncingballX 3s linear infinite ;
+                    
+        }
+        @keyframes bouncingballX {
+            from{
+                
+            }
+            to{
+                  
+                transform: translateX(100px);
+            }
+        }
+        @keyframes bouncingballY {
+            from{
+                
+            }
+            to{
+                
+                transform: translateY(-1000px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>
